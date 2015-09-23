@@ -77,8 +77,11 @@ var education = {
 	]
 }
 
-var formattedheaderName = HTMLheaderName.replace("%data%",bio.name);
-$("#header").prepend(formattedheaderName);
+var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+$("#header").prepend(formattedRole);
+
+var formattedName = HTMLheaderName.replace("%data%",bio.name);
+$("#header").prepend(formattedName);
 
 if (bio.skills.length > 0) {
 
