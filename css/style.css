@@ -113,6 +113,14 @@ a {
   color: #f5ae23;
 }
 
+.red {
+  background-color: #8b0000;
+}
+
+.white {
+  background-color: #fff;
+}
+
 .white-text {
   font-weight: bold;
   color: #fff;
@@ -130,7 +138,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #8b0000;
 }
 
 .flex-box {
