@@ -96,13 +96,13 @@ var projects = {
 						"title": "About Me",
 						"dates": "September 2015",
 						"description": "Built a webpage about myself",
-						"images": ["images/about_me.jpg"]
+						"images": ["images/about_me_500.jpg"]
 					},
 					{
 						"title": "Portfolio",
 						"dates": "September 2015",
 						"description": "Built a portfolio site",
-						"images": ["images/portfolio.jpg"]
+						"images": ["images/portfolio_500.jpg"]
 					}
 	],
 	"display": function() {
