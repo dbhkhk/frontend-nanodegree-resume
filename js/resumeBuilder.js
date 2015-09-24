@@ -11,7 +11,7 @@ var bio = {
 	"bioPic": "images/head_200_200.jpg",
 	"welcomeMessage": "Welcome to my resume!<br>If you have any questions, please don't hesitate to contact me" +
 	" :)",
-	"skills": ["Programming", "HTML", "CSS", "Python", "JavaScript"],
+	"skills": ["Programming", "HTML", "CSS", "JavaScript", "Python"],
 	"display": function() {
 		var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 		$("#header").prepend(formattedRole);
@@ -152,6 +152,30 @@ var education = {
 			"school": "Udacity",
 			"date": 2015,
 			"url": "https://www.udacity.com/course/intro-to-computer-science--cs101"
+		},
+		{
+			"title": "Intro to HTML and CSS",
+			"school": "Udacity",
+			"date": 2015,
+			"url": "https://www.udacity.com/course/intro-to-html-and-css--ud304-nd"
+		},
+		{
+			"title": "How to use Git and GitHub",
+			"school": "Udacity",
+			"date": 2015,
+			"url": "https://www.udacity.com/course/how-to-use-git-and-github--ud775-nd"
+		},
+		{
+			"title": "JavaScript Basics",
+			"school": "Udacity",
+			"date": 2015,
+			"url": "https://www.udacity.com/course/javascript-basics--ud804-nd"
+		},
+		{
+			"title": "Intro to jQuery",
+			"school": "Udacity",
+			"date": 2015,
+			"url": "https://www.udacity.com/course/intro-to-jquery--ud245-nd"
 		}
 	],
 	"display": function() {
