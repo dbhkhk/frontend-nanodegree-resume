@@ -69,7 +69,7 @@ var work = {
 				}
 	],
 	"display": function() {
-		for (job in work.jobs) {
+		for (var job in work.jobs) {
 			$("#workExperience").append(HTMLworkStart);
 
 			var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
