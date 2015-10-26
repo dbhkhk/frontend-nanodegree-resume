@@ -78,13 +78,15 @@ var projects = {
 						"title": "About Me",
 						"dates": "September 2015",
 						"description": "Built a webpage about myself",
-						"images": ["images/about_me_500.jpg"]
+						"images": ["images/about_me_500.jpg"],
+						"url": "http://dbhkhk.github.io/p0-about-me/"
 					},
 					{
 						"title": "Portfolio",
 						"dates": "September 2015",
 						"description": "Built a portfolio site",
-						"images": ["images/portfolio_500.jpg"]
+						"images": ["images/portfolio_500.jpg"],
+						"url": "http://dbhkhk.github.io/portfolio/"
 					}
 	],
 	"display": function() {
@@ -92,6 +94,7 @@ var projects = {
 			$("#projects").append(HTMLprojectStart);
 
 			var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title);
+			formattedTitle = formattedTitle.replace("#", projects.projects[project].url)
 			var formattedDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);
 			var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projects[project].description);
 			$(".project-entry:last").append(formattedTitle, formattedDates, formattedDescription);
